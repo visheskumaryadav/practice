@@ -1,3 +1,15 @@
+/*
+program for the below pattern:
+
+ *  *  *  *  *  *  *  *  *  *
+ *  *  *  *        *  *  *  *
+ *  *  *              *  *  *
+ *  *                    *  *
+ *                          *
+
+ */
+
+
 package patterns;
 
 public class Pattern_2 {
@@ -5,9 +17,21 @@ public class Pattern_2 {
 
         for(int i=0;i<5;i++) // for rows
         {
-            for(int j=5-i;j>0;j--) //for cols
+            for(int j=0;j<5-i;j++) //for left side
                 System.out.print(" * ");
-            System.out.println(""); //for the next row
+
+
+            for(int s=0;s<2*i;s++) //for space
+                System.out.print("   ");
+
+            for(int k=0;k<5-i;k++) // for right side
+                System.out.print(" * ");
+            System.out.println("");
+
         }
+
+
+
+
     }
 }
