@@ -1,3 +1,6 @@
+/*
+find the difference b/w max and min number
+ */
 package Arrays;
 
 import java.util.Scanner;
