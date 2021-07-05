@@ -1,3 +1,13 @@
+/*
+create a barchart on the basis of given element present in the array.Example: arr={2,5,1,0,3}
+
+ *
+ *
+ *  *
+**  *
+*** *
+
+*/
 package Arrays;
 
 import java.util.Arrays;
